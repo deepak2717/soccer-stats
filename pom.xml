@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.com.meetup.ansible</groupId>
 	<artifactId>soccer-stats</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.2-RELEASE</version>
 	<packaging>war</packaging>
 	<name>soccer-stats</name>
 	<description>A simple API to display soccer matches results</description>
