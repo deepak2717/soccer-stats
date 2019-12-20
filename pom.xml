@@ -19,7 +19,13 @@
 		<jacoco.version>0.7.9</jacoco.version>
 		<sonar.junit.reportPaths>target/surefire-reports,target/failsafe-reports</sonar.junit.reportPaths>
 	</properties>
-
+	<distributionManagement>
+  <repository>
+    <id>releases</id>
+    <!-- CHANGE HERE by your team nexus server -->
+    <url>http://18.219.144.57:8081/repository/ansible-meetup/</url>
+  </repository>
+</distributionManagement>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
